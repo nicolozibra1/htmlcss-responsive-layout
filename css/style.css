@@ -167,7 +167,7 @@ h2{
     padding: 30px 20px;
     border-radius: 50px;
 }
-.card-testimonial > p, span{
+.card-content > p, span{
     color: var(--light-color);
     font-size: 1.2rem;
 }
@@ -186,7 +186,7 @@ h2{
 /* SECTION FEATURES */
 .title-features{
     color: var(--light-color);
-    text-align: center;
+    margin: auto;
     margin-bottom: 80px;
 }
 .card-feat{
@@ -238,7 +238,7 @@ h2{
 }
 
 /* SECTION CALL TO ACTION */
-.title-get-started{
+.title-grey{
     color: lightgrey;
     letter-spacing: 2px;;
 }
@@ -290,5 +290,50 @@ footer{
     }
     #intro .card:first-child{
         width: calc((100% / 3 * 2) - 10px);
+    }
+    .card-left > img{
+        width: 60%;
+    }
+    .box-planning > h3{
+        font-size: 3rem;
+    }
+    .card-testimonial{
+        align-items: center;
+    }
+    .circle-container{
+        position:relative;
+    }
+    .circle-photo{
+        margin: 0;
+    }
+    .card-content{
+        text-align: left;
+        width: 65%;
+    }
+    #features .card-feat{
+        width: calc((100% / 2) - 10px);
+    }
+    #about-us > div{
+        gap: 60px;
+        justify-content: space-between;
+    }
+    .about-content{
+        width: calc(50% - 30px);
+    }
+    .about-social{
+        width: calc(40% - 30px);
+    }
+    .about-social > .circle-container{
+        margin: 0;
+    }
+    .about-social > h2{
+        font-size: 1.5rem;
+    }
+    .about-content > h2{
+        font-size: 3rem;
+    }
+    .icon-about{
+        position: absolute;
+        right: -30px;
     }
 }
