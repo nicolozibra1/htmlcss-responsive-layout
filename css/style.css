@@ -34,10 +34,17 @@ body{
 .m-30bttm{
     margin-bottom: 30px;;
 }
+.m-auto{
+    margin: auto;
+}
+.p-top20{
+    padding-top: 20px;
+}
 /* RULES */
 .button{
     padding: 10px 60px;
     border-radius: 20px;
+    text-decoration: none;
 }
 .bttn{
     padding:40px 0;
@@ -93,7 +100,7 @@ header nav a{
 .card{
     background-color: var(--bg-card);
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .card-left{
     padding: 30px 30px 0 30px;
@@ -168,7 +175,6 @@ h2{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: auto;
     overflow: hidden;
 }
 .circle-photo > img{
@@ -204,6 +210,33 @@ h2{
     margin-bottom: 30px;
     letter-spacing: 3px;
 }
+
+/* SECTION ABOUT US */
+.about-box > h2{
+    font-size: 2.5rem;
+    padding: 30px 0;
+}
+.about-box > p{
+    line-height: 225%;
+}
+.circle-container{
+    width: 65%;
+    margin-top: 30px;
+    position: relative;
+}
+.icon-about{
+    position: absolute;
+    top: 0;
+    right:0;
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+.social-link{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 10px 20px;
+}
+
 /* FOOTER */
 footer{
     background-color: var(--dark-color);
