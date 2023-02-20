@@ -77,11 +77,16 @@ header nav a{
 }
 
 /* MAIN */
-main{
-    margin-top: 80px;
-}
 .even{
     background-color: var(--primary-color);
+}
+
+/* SECTION INTRO */
+#intro{
+    margin-top: 80px;
+}
+.intro-box{
+    padding: 80px 40px;
 }
 .card{
     background-color: var(--bg-card);
@@ -106,6 +111,7 @@ main{
     color: var(--light-color);
     text-decoration: none;
 }
+
 /* FOOTER */
 footer{
     background-color: var(--dark-color);
