@@ -237,6 +237,36 @@ h2{
     padding: 10px 20px;
 }
 
+/* SECTION CALL TO ACTION */
+.title-get-started{
+    color: lightgrey;
+    letter-spacing: 2px;;
+}
+.cta > h2{
+    color: var(--light-color);
+    padding-top: 30px;
+}
+#free{
+    font-size: 4rem;
+    color: var(--contrast-color);
+}
+.cta > p{
+    color: var(--light-color);
+}
+.get-started{
+    color: var(--primary-color);
+    background-color: var(--light-color);
+    letter-spacing: 3px;
+    padding: 20px 80px;
+    border-radius: 30px;
+}
+.copyright{
+    margin-top:30px;
+    padding-bottom: 0;
+}
+.privacy{
+    color: var(--light-color);
+}
 /* FOOTER */
 footer{
     background-color: var(--dark-color);
