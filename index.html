@@ -16,7 +16,7 @@
     <header>
         <nav class="container">
             <img src="./img/logo.png" alt="logo">
-            <a href="#"><i class="fa-solid fa-bars"></i></a>
+            <a href="#" class="hamburger"><i class="fa-solid fa-bars"></i></a>
             <ul>
                 <li><a href="#planning">Planning</a></li>
                 <li><a href="#testimonials">testimonials</a></li>
@@ -33,13 +33,17 @@
         <section id="intro">
             <div class="p-section container d-flex">
                 <div class="card">
-                    <div class="card-left">
-                        <h3>Get a demo application</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempore cupiditate laudantium elit. Optio tempore cupiditate laudantium Optio tempore.</p>
-                        <div class="bttn">
-                            <a class="button go-to-store" href="#"><i class="fa-brands fa-apple"></i> App Store</a>
+                    <div class="card-left inner-flex">
+                        <div class="col-left">
+                            <h3>Get a demo application</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempore cupiditate laudantium elit. Optio tempore cupiditate laudantium Optio tempore.</p>
+                            <div class="bttn">
+                                <a class="button go-to-store" href="#"><i class="fa-brands fa-apple"></i> App Store</a>
+                            </div>
                         </div>
-                        <img class="image" src="./img/phone.png" alt="phone">
+                        <div class="col-right">
+                            <img class="image" src="./img/phone.png" alt="phone">
+                        </div>
                     </div>
                     
                 </div>
@@ -68,16 +72,20 @@
 
         <!-- PLANNING -->
         <section class="even" id="planning">
-            <div class="box-planning p-section container">
-                <img class="image" src="./img/planning1.png" alt="planning-1">
-                <h3>Strategic Planning</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repudiandae laboriosam aliquam. Repellendus nihil magnam itaque alias accusantium ad similique, dignissimos voluptates, facere nulla excepturi tempore a nesciunt quis iusto ea officiis quae reiciendis odio.</p>
-                <div class="card-planning text-center">
-                    <img class="image" src="./img/planning2.png" alt="planning-2">
-                    <h3>App Development</h3>
-                    <p><em>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</em></p>
-                    <div class="circle">
-                        <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+            <div class="box-planning p-section container inner-flex">
+                <div class="col">
+                    <img class="image" src="./img/planning1.png" alt="planning-1">
+                    <h3>Strategic Planning</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repudiandae laboriosam aliquam. Repellendus nihil magnam itaque alias accusantium ad similique, dignissimos voluptates, facere nulla excepturi tempore a nesciunt quis iusto ea officiis quae reiciendis odio.</p>
+                </div>
+                <div class="col col-planning inner-flex">
+                    <div class="card-planning text-center">
+                        <img class="image img-planning" src="./img/planning2.png" alt="planning-2">
+                        <h3>App Development</h3>
+                        <p><em>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</em></p>
+                        <div class="circle">
+                            <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -124,41 +132,43 @@
         <section class="even" id="features">
             <div class="container p-section d-flex">
                 <h2 class="title-features">Benefits of working with us</h2>
-                <div class="card card-feat p-30">
-                    <h2 class="number">01</h2>
-                    <h3>Hight Quality</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
-                    <a class="button more-bttn" href="#"><strong>more</strong></a>
-                </div>
-                <div class="card card-feat p-30">
-                    <h2 class="number">02</h2>
-                    <h3>Creative Team</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
-                    <a class="button more-bttn" href="#"><strong>more</strong></a>
-                </div>
-                <div class="card card-feat p-30">
-                    <h2 class="number">03</h2>
-                    <h3>Amazing Results</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
-                    <a class="button more-bttn" href="#"><strong>more</strong></a>
-                </div>
-                <div class="card card-feat p-30">
-                    <h2 class="number">04</h2>
-                    <h3>Best Pricing</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
-                    <a class="button more-bttn" href="#"><strong>more</strong></a>
-                </div>
-                <div class="card card-feat p-30">
-                    <h2 class="number">05</h2>
-                    <h3>Innovations</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
-                    <a class="button more-bttn" href="#"><strong>more</strong></a>
-                </div>
-                <div class="card card-feat p-30">
-                    <h2 class="number">06</h2>
-                    <h3>24/7 Support</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
-                    <a class="button more-bttn" href="#"><strong>more</strong></a>
+                <div class="box-features d-flex">
+                    <div class="card card-feat p-30">
+                        <h2 class="number">01</h2>
+                        <h3>Hight Quality</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
+                        <a class="button more-bttn" href="#"><strong>more</strong></a>
+                    </div>
+                    <div class="card card-feat p-30">
+                        <h2 class="number">02</h2>
+                        <h3>Creative Team</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
+                        <a class="button more-bttn" href="#"><strong>more</strong></a>
+                    </div>
+                    <div class="card card-feat p-30">
+                        <h2 class="number">03</h2>
+                        <h3>Amazing Results</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
+                        <a class="button more-bttn" href="#"><strong>more</strong></a>
+                    </div>
+                    <div class="card card-feat p-30">
+                        <h2 class="number">04</h2>
+                        <h3>Best Pricing</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
+                        <a class="button more-bttn" href="#"><strong>more</strong></a>
+                    </div>
+                    <div class="card card-feat p-30">
+                        <h2 class="number">05</h2>
+                        <h3>Innovations</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
+                        <a class="button more-bttn" href="#"><strong>more</strong></a>
+                    </div>
+                    <div class="card card-feat p-30">
+                        <h2 class="number">06</h2>
+                        <h3>24/7 Support</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatem similique accusantium ad delectus! Sint eius deleniti laboriosam nihil illo inventore natus harum unde omnis.</p>
+                        <a class="button more-bttn" href="#"><strong>more</strong></a>
+                    </div>
                 </div>
             </div>
         </section>
